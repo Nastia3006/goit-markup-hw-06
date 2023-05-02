@@ -285,17 +285,50 @@ ul {
   left: 0%;
   right: 0%;
   top: 0%;
-  bottom: 0%;
   background-color: var(--cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
   transition: background-color var(--anim-fast);
+  margin-bottom: 32px;
 }
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--ocean);
   fill:#ffffff;
+}
+
+.modal-title {
+  font-family: var(--primary-font);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+}
+
+.modal-form {
+  
+}
+.modal-form-label {
+font-family: var(--primary-font);
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: var(--light-slate);
+
+margin-left: 24px;
+margin-right: auto;
+}
+.modal-form-item {
+}
+.modal-form-input {
+  margin-right: auto;
+  margin-left: auto;
+  width: 360px;
+  height: 40px;
 }
 
 
@@ -516,6 +549,64 @@ ul {
   fill: var(--cloud);
 }
 
+.footer-wrapper {
+display: block;
+}
+
+.footer-subscribe{
+  font-family: var(--main-txt-cl);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-input {
+  background-color: var(--navy-blue);
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+margin-left: 80px;
+color: var(--white);
+}
+.footer-button {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 16px;
+background-color: var(--iris);
+border-radius: 4px;
+border-color: transparent;
+transition: ;
+}
+.footer-subscribe-txt{
+  font-family: var(--main-txt-cl);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--white);
+}
+.footer-icon-send {
+}
+
 /*Portfolio*/
 img {
   display: block;
@@ -661,3 +752,5 @@ img {
   position: relative;
   overflow: hidden;
 }
+
+
