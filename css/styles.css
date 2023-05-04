@@ -400,7 +400,10 @@ letter-spacing: 0.04em;
 .modal-form-input-agreement {
   appearance: none;
   cursor: pointer;
- 
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--navy-blue-modal);
+border-radius: 2px;
 
 
 
